@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This document details the theoretical framework and formulations used in simulating active contraction of ventricular muscle samples. The finite element method, implemented through the OpenCMISS software package, serves as the primary computational tool for this biomechanical modeling.
+This document details the theoretical framework and formulations used in simulating the active contraction of ventricular muscle samples (unit cube).
 
 ## 2. Uniaxial Extension of a Unit Cube
 
@@ -23,7 +23,7 @@ Q = b_f E_{ff}^2 + b_t(E_{ss}^2 + E_{nn}^2 + 2E_{sn}^2) + 2b_{fs}(E_{fs}^2 + E_{
 $$
 
 - $W$ represents the strain energy function
-- $E_{ij}$ denotes components of the Green–Lagrange strain tensor E
+- $E_{ij}$ denotes components of the Greenâ€“Lagrange strain tensor E
 - Fibers are aligned in the x-direction
 - Constitutive parameters: $C = 2$ Pa, $b_f = 8$, $b_t = 2$, $b_{fs} = 4$
 
@@ -139,7 +139,7 @@ $$
 
 ## 4. Arbitrary Fiber Direction
 
-We now consider biaxial stretching with fibers oriented at an arbitrary angle ?. We present calculations for a fiber angle of 45°.
+We now consider biaxial stretching with fibers oriented at an arbitrary angle ?. We present calculations for a fiber angle of 45Â°.
 
 ### Deformation Gradient
 
@@ -239,7 +239,7 @@ Key outcomes for specific scenarios:
    \end{bmatrix}, \quad RF_{nodal} = 1.125 \text{ N}
    $$
 
-3. Biaxial Stretching with 45° fiber Angle:
+3. Biaxial Stretching with 45Â° fibre Angle:
    $$
    F_{ref} = \begin{bmatrix}
    1.25 & 0 & 0 \\
