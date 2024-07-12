@@ -57,7 +57,8 @@ $$
 
 1. **Right Cauchy-Green deformation tensor:**
 $$
-C = F^T F = \begin{bmatrix}
+C = F^T F
+C  = \begin{bmatrix}
 2.25 & 0 & 0 \\
 0 & 0.67 & 0 \\
 0 & 0 & 0.67
