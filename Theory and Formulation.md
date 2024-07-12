@@ -56,6 +56,7 @@ $$
 ### Stress Calculations
 
 1. Right Cauchy-Green deformation tensor:
+   
    $$
    C = F^T F = \begin{bmatrix}
    2.25 & 0 & 0 \\
@@ -64,7 +65,7 @@ $$
    \end{bmatrix}
    $$
 
-2. Green-Lagrange strain tensor:
+3. Green-Lagrange strain tensor:
    $$
    E = \frac{1}{2}(C - I) = \begin{bmatrix}
    0.625 & 0 & 0 \\
@@ -73,7 +74,7 @@ $$
    \end{bmatrix}
    $$
 
-3. Distortional component of second Piola-Kirchhoff stress:
+4. Distortional component of second Piola-Kirchhoff stress:
    $$
    S = \frac{\partial W}{\partial E} = \begin{bmatrix}
    0.25 & 0 & 0 \\
@@ -82,14 +83,14 @@ $$
    \end{bmatrix} \text{ Pa}
    $$
 
-4. Total second Piola-Kirchhoff stress (including hydrostatic pressure):
+5. Total second Piola-Kirchhoff stress (including hydrostatic pressure):
    $$
    S_{ij} = \frac{\partial W}{\partial E_{ij}} - p_{hyd} C_{ij}^{-1}
    $$
    
    Where $p_{hyd} = -0.0113$ Pa
 
-5. Cauchy stress:
+6. Cauchy stress:
    $$
    \sigma_{total} = FSF^T = \begin{bmatrix}
    0.58 & 0 & 0 \\
@@ -98,7 +99,7 @@ $$
    \end{bmatrix} \text{ Pa}
    $$
 
-6. Nodal force:
+7. Nodal force:
    $$
    RF_{nodal} = \frac{\sigma_{xx} \times A_{def}}{4} = 0.097 \text{ N}
    $$
