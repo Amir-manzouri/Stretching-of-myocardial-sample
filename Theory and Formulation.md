@@ -105,7 +105,7 @@ $$
 
 ## 3. Active Tension
 
-Active contraction is modeled by superimposing passive stress and active contractile stress:
+Active contraction is modelled by superimposing passive stress and active contractile stress:
 
 $$
 S = S_{passive} + S_{active}
@@ -117,7 +117,7 @@ $$
 S_{active} = T_{ca} \hat{e}_x \otimes \hat{e}_x
 $$
 
-Where $\hat{e}_x$ is the unit vector in the fiber direction.
+Where $\hat{e}_x$ is the unit vector in the fibre direction.
 
 For $T_{ca} = 3$ Pa, the updated stresses and nodal force are:
 
@@ -139,7 +139,7 @@ $$
 
 ## 4. Arbitrary Fiber Direction
 
-We now consider biaxial stretching with fibers oriented at an arbitrary angle ?. We present calculations for a fiber angle of 45°.
+We now consider biaxial stretching with fibres oriented at an arbitrary angle. We present calculations for a fibre angle of 45°.
 
 ### Deformation Gradient
 
@@ -169,7 +169,7 @@ $$
 
 ### Stress Calculations
 
-1. Second Piola-Kirchhoff stress in fiber coordinates:
+1. Second Piola-Kirchhoff stress in fibre coordinates:
    $$
    S_{fib} = \frac{\partial W}{\partial E_{fib}} = \begin{bmatrix}
    0.012 & 0 & 0 \\
@@ -208,44 +208,3 @@ $$
    $$
    RF_2 = 0.0012 \text{ N}
    $$
-
-## 5. OpenCMISS Simulations
-
-Simulations were performed using OpenCMISS, employing a single linear Lagrange element with eight nodes to represent the unit cube. Boundary conditions were set to mimic the analytical setup, with three faces of the cube fixed to constrain movement in specific directions.
-
-Two approaches for loading conditions were used:
-1. Displacements as stretching loading conditions
-2. Calculated nodal forces from analytical solutions as loading conditions
-
-The simulations yielded uniform strain and stress fields throughout the cube, aligning with theoretical expectations. Numerical results from OpenCMISS showed excellent agreement with analytical solutions.
-
-Key outcomes for specific scenarios:
-
-1. Uniaxial passive stretching:
-   $$
-   F = \begin{bmatrix}
-   1.5 & 0 & 0 \\
-   0 & 0.82 & 0 \\
-   0 & 0 & 0.82
-   \end{bmatrix}, \quad RF_{nodal} = 0.097 \text{ N}
-   $$
-
-2. Uniaxial stretching with active contraction:
-   $$
-   F = \begin{bmatrix}
-   1.5 & 0 & 0 \\
-   0 & 0.82 & 0 \\
-   0 & 0 & 0.82
-   \end{bmatrix}, \quad RF_{nodal} = 1.125 \text{ N}
-   $$
-
-3. Biaxial Stretching with 45° fibre Angle:
-   $$
-   F_{ref} = \begin{bmatrix}
-   1.25 & 0 & 0 \\
-   0 & 1.25 & 0 \\
-   0 & 0 & 0.64
-   \end{bmatrix}, \quad RF_1 = 0.94 \text{ N}, \quad RF_2 = 0.0012 \text{ N}
-   $$
-
-These simulations verify the accuracy of the OpenCMISS implementation in modeling ventricular muscle mechanics, including passive stretching and active contraction with various fiber orientations.
