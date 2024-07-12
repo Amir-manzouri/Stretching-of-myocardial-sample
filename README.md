@@ -36,4 +36,4 @@ Key features:
 
 ## Usage
 
-To run any scripts, ensure you have Python and NumPy installed. Then, execute the desired script:
+To run any scripts, you only need to install Python and NumPy.
