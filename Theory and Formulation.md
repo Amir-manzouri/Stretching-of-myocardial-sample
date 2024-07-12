@@ -56,52 +56,38 @@ $$
 ### Stress Calculations
 
 1. Right Cauchy-Green deformation tensor:
-   $$
-   C = F^T F = \begin{bmatrix}
-   2.25 & 0 & 0 \\
-   0 & 0.67 & 0 \\
-   0 & 0 & 0.67
-   \end{bmatrix}
-   $$
+   
+   C = F^T F = [2.25  0    0   ]
+                [0     0.67 0   ]
+                [0     0    0.67]
 
 2. Green-Lagrange strain tensor:
-   $$
-   E = \frac{1}{2}(C - I) = \begin{bmatrix}
-   0.625 & 0 & 0 \\
-   0 & -0.17 & 0 \\
-   0 & 0 & -0.17
-   \end{bmatrix}
-   $$
+   
+   E = 1/2(C - I) = [0.625  0     0    ]
+                    [0      -0.17  0    ]
+                    [0       0    -0.17 ]
 
 3. Distortional component of second Piola-Kirchhoff stress:
-   $$
-   S = \frac{\partial W}{\partial E} = \begin{bmatrix}
-   0.25 & 0 & 0 \\
-   0 & -0.017 & 0 \\
-   0 & 0 & -0.017
-   \end{bmatrix} \text{ Pa}
-   $$
+   
+   S = ∂W/∂E = [0.25   0      0     ]
+               [0     -0.017  0     ] Pa
+               [0      0     -0.017 ]
 
 4. Total second Piola-Kirchhoff stress (including hydrostatic pressure):
-   $$
-   S_{ij} = \frac{\partial W}{\partial E_{ij}} - p_{hyd} C_{ij}^{-1}
-   $$
    
-   Where $p_{hyd} = -0.0113$ Pa
+   S_ij = ∂W/∂E_ij - p_hyd C_ij^(-1)
+   
+   Where p_hyd = -0.0113 Pa
 
 5. Cauchy stress:
-   $$
-   \sigma_{total} = FSF^T = \begin{bmatrix}
-   0.58 & 0 & 0 \\
-   0 & 0 & 0 \\
-   0 & 0 & 0
-   \end{bmatrix} \text{ Pa}
-   $$
+   
+   σ_total = FSF^T = [0.58  0  0]
+                     [0     0  0] Pa
+                     [0     0  0]
 
 6. Nodal force:
-   $$
-   RF_{nodal} = \frac{\sigma_{xx} \times A_{def}}{4} = 0.097 \text{ N}
-   $$
+   
+   RF_nodal = (σ_xx × A_def) / 4 = 0.097 N
 
 ## 3. Active Tension
 
