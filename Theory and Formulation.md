@@ -1,4 +1,4 @@
-# Theory and Formulation for Ventricular Muscle Simulation
+# Theory and Formulation for Mechanics Simulation of a unit cube
 
 ## 1. Introduction
 
