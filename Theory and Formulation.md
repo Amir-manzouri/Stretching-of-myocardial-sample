@@ -75,7 +75,7 @@ Green-Lagrange strain tensor:
    \end{bmatrix}
    $$
 
-3. **Distortional component of second Piola-Kirchhoff stress:**
+Distortional component of second Piola-Kirchhoff stress
    
    $$
    S = \frac{\partial W}{\partial E} = \begin{bmatrix}
@@ -85,13 +85,15 @@ Green-Lagrange strain tensor:
    \end{bmatrix} \text{ Pa}
    $$
 
-5. **Total second Piola-Kirchhoff stress (including hydrostatic pressure):**
+Total second Piola-Kirchhoff stress (including hydrostatic pressure):
+
    $$
    S_{ij} = \frac{\partial W}{\partial E_{ij}} - p_{hyd} C_{ij}^{-1}
    $$
    where \( p_{hyd} = -0.0113 \) Pa
 
-6. **Cauchy stress:**
+Cauchy stress:
+
    $$
    \sigma_{total} = FSF^T = \begin{bmatrix}
    0.58 & 0 & 0 \\
@@ -100,7 +102,8 @@ Green-Lagrange strain tensor:
    \end{bmatrix} \text{ Pa}
    $$
 
-7. **Nodal force:**
+Nodal force:
+
    $$
    RF_{nodal} = \frac{\sigma_{xx} \times A_{def}}{4} = 0.097 \text{ N}
    $$
