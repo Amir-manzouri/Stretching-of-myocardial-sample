@@ -132,14 +132,14 @@ $$
 
 $$
 \sigma = \begin{bmatrix}
-6.75 & 0 & 0 \\
+7.33 & 0 & 0 \\
 0 & 0 & 0 \\
 0 & 0 & 0
 \end{bmatrix} \text{ Pa}
 $$
 
 $$
-RF_{nodal} = 1.125 \text{ N}
+RF_{nodal} = 1.222 \text{ N}
 $$
 
 ## 4. Arbitrary Fiber Direction
