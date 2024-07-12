@@ -175,6 +175,7 @@ $$
 ### Stress Calculations
 
 1. Second Piola-Kirchhoff stress in fibre coordinates:
+   
    $$
    S_{fib} = \frac{\partial W}{\partial E_{fib}} = \begin{bmatrix}
    0.012 & 0 & 0 \\
@@ -183,12 +184,14 @@ $$
    \end{bmatrix} \text{ Pa}
    $$
 
-2. Adding active stress:
+3. Adding active stress:
+   
    $$
    S_{fib,ff} = S_{fibr,passive,ff} + S_{fib,active,ff} = 0.012 + 3 = 3.012 \text{ Pa}
    $$
 
-3. Total second Piola-Kirchhoff stress in reference coordinates:
+5. Total second Piola-Kirchhoff stress in reference coordinates:
+   
    $$
    S_{total,ref} = \begin{bmatrix}
    1.51 & 1.50 & 0 \\
@@ -197,7 +200,8 @@ $$
    \end{bmatrix} \text{ Pa}
    $$
 
-4. Total Cauchy stress in reference coordinates:
+7. Total Cauchy stress in reference coordinates:
+   
    $$
    \sigma_{total,ref} = \begin{bmatrix}
    2.36 & 2.35 & 0 \\
@@ -206,7 +210,8 @@ $$
    \end{bmatrix} \text{ Pa}
    $$
 
-5. Nodal reaction forces:
+9. Nodal reaction forces:
+    
    $$
    RF_1 = 0.94 \text{ N}
    $$
