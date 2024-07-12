@@ -55,7 +55,7 @@ $$
 
 ### Stress Calculations
 
-The deformation gradient tensor F is defined as:
+Right Cauchy-Green deformation tensor C is defined as:
 
 $$
 C  = \begin{bmatrix}
@@ -65,7 +65,7 @@ C  = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-2. **Green-Lagrange strain tensor:**
+Green-Lagrange strain tensor:
    $$
    E = \frac{1}{2}(C - I) = \begin{bmatrix}
    0.625 & 0 & 0 \\
