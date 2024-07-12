@@ -1,4 +1,4 @@
-# Cube Mechanics Simulation
+# Unit Cube Mechanics Simulation
 
 This repository contains a set of Python scripts for simulating various mechanical behaviors of a unit cube. The scripts demonstrate different aspects of continuum mechanics, including passive stretching, active contraction, and fiber-oriented deformation.
 
