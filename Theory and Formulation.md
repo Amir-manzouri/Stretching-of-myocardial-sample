@@ -146,7 +146,7 @@ $$
 
 We now consider biaxial stretching with fibres oriented at an arbitrary angle. We present calculations for a fibre angle of 45°.
 
-### Deformation Gradient
+
 
 $$
 F_{ref} = \begin{bmatrix}
