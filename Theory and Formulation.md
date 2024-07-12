@@ -55,6 +55,7 @@ $$
 
 ### Stress Calculations
 
+The deformation gradient tensor F is defined as:
 
 $$
 C  = \begin{bmatrix}
