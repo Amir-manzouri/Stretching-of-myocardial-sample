@@ -66,6 +66,7 @@ C  = \begin{bmatrix}
 $$
 
 Green-Lagrange strain tensor:
+
    $$
    E = \frac{1}{2}(C - I) = \begin{bmatrix}
    0.625 & 0 & 0 \\
