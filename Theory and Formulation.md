@@ -55,7 +55,7 @@ $$
 
 ### Stress Calculations
 
-1. **Right Cauchy-Green deformation tensor:**
+
 $$
 C  = \begin{bmatrix}
 2.25 & 0 & 0 \\
