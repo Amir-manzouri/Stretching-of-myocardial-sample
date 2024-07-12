@@ -8,7 +8,7 @@ This document details the theoretical framework and formulations used in simulat
 
 We begin with the extension of a unit cube subjected to a deformation gradient tensor F, which increases the x-length of the cube by 50%.
 
-![Description of first image](Figures/pic1.png)
+(Figures/pic1.png)
 
 ### Constitutive Law
 
