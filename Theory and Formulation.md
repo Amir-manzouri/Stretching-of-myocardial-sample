@@ -217,6 +217,7 @@ Nodal reaction forces:
     
    $$
    RF_1 = 0.94 \text{ N}
+   $$
 
    
    $$
