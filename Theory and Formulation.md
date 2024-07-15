@@ -217,7 +217,8 @@ Nodal reaction forces:
     
    $$
    RF_1 = 0.94 \text{ N}
-   $$
+
+   
    $$
    RF_2 = 0.0012 \text{ N}
    $$
